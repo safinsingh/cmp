@@ -20,7 +20,7 @@ int longest_common_prefix_len(string g, string s) {
   return g.length();
 }
 
-int longest_common_prefix(string g, string s) {
+string longest_common_prefix(string g, string s) {
   for(int z=0;z<n;z++){
     int i=0, j=0;
     if(z==0)g=s;
