@@ -10,12 +10,6 @@ int main() {
   ios::sync_with_stdio(false);
   cin.tie(NULL);
 
-  int a;
-  string s,t;
-  cin>>a>>s>>t;
-  if(t=="week"&&6>=a&&a>=5)cout<<53;
-  else if(t=="week")cout<<52;
-  else if(a>=31)cout<<7;
-  else if(a>=30)cout<<11;
-  else cout<<12;
+  int a,b,c;cin>>a>>b>>c;
+  cout<<min(min(c/4,b/2),a)*7;
 }
