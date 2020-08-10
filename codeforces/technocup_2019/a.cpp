@@ -4,13 +4,13 @@
 #include <iostream>
 #include <algorithm>
 #include <map>
-
+ 
 using namespace std;
-
+ 
 int main() {
   ios::sync_with_stdio(false);
   cin.tie(NULL);
-
+ 
   int a,b;cin>>a>>b;
   int z[a];
   for(int i=0;i<a;i++)cin>>z[i];
